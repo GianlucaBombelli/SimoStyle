@@ -1,0 +1,87 @@
+#contenitore {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.link-container{
+  position: absolute;
+  top: 40vw;
+  right: 0;
+  text-align: center;
+  width: 65%;
+  font-size:small;
+  float: right;
+}
+
+.link-container >a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Montserrat2';
+  margin: 8px;
+}
+
+#puntini {
+  font-size: medium;
+}
+
+#event-animation {
+  line-height: 28px;
+  animation: event 4s 1;
+}
+
+#logo {
+  z-index: 1;
+  position: absolute;
+  width: 28vw;
+  top: 10px;
+  left: 10px;
+}
+
+#collega {
+  width: 65%;
+  position: absolute;
+  rotate: 380deg;
+  top: -33vw;
+  right: -32vw;
+}
+
+#sinistra {
+  width: 65%;
+  position: absolute;
+  rotate: 200deg;
+  top: -9vw;
+  left: -8vw;
+}
+
+#destra {
+  width: 100%;
+  position: absolute;
+  rotate: -30deg;
+  right: -55vw;
+  top: 100px;
+}
+
+
+@keyframes event{
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@media (max-width: 320px){
+  .link-container{
+    font-size: x-small;
+  }
+
+  #puntini{
+    font-size: small;
+  }
+}

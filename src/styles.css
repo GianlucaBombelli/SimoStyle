@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: 'Montserrat1';
+  src: url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat2';
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Titolo';
+  src: url(fonts/OPTIAmway.otf);
+}
