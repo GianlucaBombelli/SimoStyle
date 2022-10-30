@@ -10,7 +10,7 @@
 
 .link-container{
   position: absolute;
-  top: 40vw;
+  top: 36vw;
   right: 0;
   text-align: center;
   width: 65%;
@@ -62,8 +62,8 @@
   width: 100%;
   position: absolute;
   rotate: -30deg;
-  right: -55vw;
-  top: 100px;
+  right: -65vw;
+  top: 17vw;
 }
 
 
@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 371px){
   .link-container{
     font-size: x-small;
   }
