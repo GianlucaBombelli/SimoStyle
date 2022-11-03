@@ -7,10 +7,11 @@
 }
 
 #titolo{
+  font-family: 'Titolo2';
   color: #d1ba3c;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 55px #000;
   margin-bottom: 0px;
-  font-size: 40px;
+  font-size: 44px;
 }
 
 #sottotitolo {

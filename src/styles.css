@@ -21,3 +21,8 @@ body {
   font-family: 'Titolo';
   src: url(fonts/OPTIAmway.otf);
 }
+
+@font-face {
+  font-family: 'Titolo2';
+  src: url(fonts/Cormorant-VariableFont_wght.ttf);
+}
