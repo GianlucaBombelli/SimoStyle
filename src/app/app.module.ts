@@ -8,6 +8,9 @@ import { HomeComponent } from './home/home.component';
 import { ContattiComponent } from './contatti/contatti.component';
 import { ChiSiamoComponent } from './chi-siamo/chi-siamo.component';
 import { EventoComponent } from './evento/evento.component';
+import { PointCardComponent } from './home/point-card/point-card.component';
+import { PointCard2Component } from './home/point-card2/point-card2.component';
+import { PointCard3Component } from './home/point-card3/point-card3.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -23,7 +26,10 @@ const routes: Routes = [
     HomeComponent,
     ContattiComponent,
     ChiSiamoComponent,
-    EventoComponent
+    EventoComponent,
+    PointCardComponent,
+    PointCard2Component,
+    PointCard3Component
   ],
   imports: [BrowserModule,
     RouterModule.forRoot(routes)],

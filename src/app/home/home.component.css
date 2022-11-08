@@ -11,13 +11,43 @@
   color: #d1ba3c;
   text-shadow: 1px 1px 55px #000;
   margin-bottom: 0px;
-  font-size: 44px;
+  font-size: 13vw;
 }
 
 #sottotitolo {
   margin-top: 0;
-  font-size: 14px;
+  font-size: 4.5vw;
   margin-bottom: 3vh;
+}
+
+#striscione {
+  display: flex;
+  height: 20vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  background-color: #d1ba3c;
+}
+
+#striscione > p {
+  width: 25vw;
+  padding: 1vw;
+  font-size: 3.1vw;
+  position: relative;
+  margin: auto;
+  color: #fff;
+}
+
+#striscione > p > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 4vw;
+}
+
+#striscione > img {
+  width: 40vw;
+  height: 40vw;
+  position: relative;
+  top: -9vw;
 }
 
 #btn-wrap {
@@ -37,6 +67,7 @@
   border-radius: 10px;
   color: #fff;
   background-color: #000;
+  font-size: 4.5vw;
 }
 
 #discover {
@@ -52,8 +83,9 @@
   position: relative;
   margin-top: 8vh;
   width: 100vw;
-  height: 100vh;
+  height: 125vh;
   box-shadow: -1px 10px 100px rgb(124, 124, 124);
+  overflow-x: hidden;
   z-index: 1;
   text-align:justify;
   text-align-last: center;
@@ -72,4 +104,9 @@
 
 .gold{
   color: #b9a639;
+}
+
+.point-card {
+  position: relative;
+  left: 26vw;
 }
