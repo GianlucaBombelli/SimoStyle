@@ -9,12 +9,12 @@
   border-radius: 30px;
 }
 
-#check:checked ~ .card {
-  height: 76vw;
-}
-
 #cbox {
   width: 48vw;
+}
+
+#check:checked ~ .card {
+  height: 76vw;
 }
 
 input[type = "checkbox"] {
@@ -27,6 +27,7 @@ input[type = "checkbox"] {
     z-index: 1;
     width: 47vw;
     height: 35vw;
+    border: 1px;
 }
 
 .card .header {
@@ -36,7 +37,6 @@ input[type = "checkbox"] {
   align-items: center;
   justify-content: center;
   background: #fff;
-  margin-bottom: 16px;
 }
 
 .card .header .title {
@@ -46,6 +46,10 @@ input[type = "checkbox"] {
   text-transform: uppercase;
   transition: all .5s;
   color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
 }
 
 .card:hover .header {
@@ -67,9 +71,19 @@ input[type = "checkbox"] {
   transition: all .5s;
   font-size: 1em;
   margin-bottom: 8px;
+  margin-top: 8px;
+}
+.img-box {
+  width: 100%;
+  height: 34vw;
+  position: relative;
+
 }
 
 .img-box > svg {
   width: 18vw;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-70%);
 }

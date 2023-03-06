@@ -1,0 +1,86 @@
+body {
+  overflow: hidden;
+}
+
+.carousel {
+  width: 99vw;
+  height: max-content;
+  position: relative;
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+  width: max-content;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  display: none;
+  opacity: 0;
+}
+
+.slide > img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.slide.active {
+  width: 98%;
+  display: block;
+  opacity: 1;
+}
+
+.carousel-b {
+  position: absolute;
+  background: none;
+  z-index: 2;
+  color: rgba(176, 176, 176, 0.50);
+  font-size: 3vw;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 0.5vw;
+  cursor: pointer;
+  border: none;
+  transition: 0.35s;
+}
+
+.carousel-b:hover,
+.carousel-b:focus {
+  color: rgb(0, 128, 240);
+
+}
+
+.carousel-b.next {
+  right: 0;
+}
+
+.animation {
+  animation-name: fade;
+  animation-duration: 0.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}

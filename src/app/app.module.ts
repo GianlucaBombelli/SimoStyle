@@ -11,6 +11,7 @@ import { EventoComponent } from './evento/evento.component';
 import { PointCardComponent } from './home/point-card/point-card.component';
 import { PointCard2Component } from './home/point-card2/point-card2.component';
 import { PointCard3Component } from './home/point-card3/point-card3.component';
+import { CaroselloRecensioniComponent } from './home/carosello-recensioni/carosello-recensioni.component';
 
 const routes: Routes = [
   {path:'home', component: HomeComponent},
@@ -29,7 +30,8 @@ const routes: Routes = [
     EventoComponent,
     PointCardComponent,
     PointCard2Component,
-    PointCard3Component
+    PointCard3Component,
+    CaroselloRecensioniComponent
   ],
   imports: [BrowserModule,
     RouterModule.forRoot(routes)],

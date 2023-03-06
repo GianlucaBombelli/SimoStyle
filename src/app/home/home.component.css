@@ -11,6 +11,7 @@
 #recensioni {
   margin-top: 15vh;
   margin-bottom: 5vh;
+  height: max-content;
 }
 
 #contenitore {
@@ -29,7 +30,6 @@
 #titolo{
   font-family: 'Titolo2';
   color: #d1ba3c;
-  text-shadow: 1px 1px 55px #000;
   margin-bottom: 0px;
   font-size: 13vw;
 }
@@ -130,4 +130,15 @@
 .point-card {
   position: relative;
   left: 26vw;
+}
+
+@media (min-width: 361px) {
+  #sezione {
+    padding-bottom: 14vh;
+  }
+}
+@media (min-width: 463px) {
+  #sezione {
+    padding-bottom: 15vh;
+  }
 }
