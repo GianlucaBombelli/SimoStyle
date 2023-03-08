@@ -12,13 +12,7 @@ import { PointCardComponent } from './home/point-card/point-card.component';
 import { PointCard2Component } from './home/point-card2/point-card2.component';
 import { PointCard3Component } from './home/point-card3/point-card3.component';
 import { CaroselloRecensioniComponent } from './home/carosello-recensioni/carosello-recensioni.component';
-
-const routes: Routes = [
-  {path:'home', component: HomeComponent},
-  {path:'contatti', component: ContattiComponent},
-  {path:'chi-siamo', component: ChiSiamoComponent},
-  {path:'evento', component:EventoComponent},
-]
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -34,10 +28,9 @@ const routes: Routes = [
     CaroselloRecensioniComponent
   ],
   imports: [BrowserModule,
-    RouterModule.forRoot(routes)],
+    AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [RouterModule],
 })
 export class AppModule { }
-export class AppRoutingModule { }

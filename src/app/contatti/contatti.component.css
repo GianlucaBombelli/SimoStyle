@@ -1,0 +1,43 @@
+.container {
+  width: 100vw;
+  position: absolute;
+  top: 65vw;
+  left: 0;
+  background: white;
+  z-index: -2;
+}
+
+#btn-wrap {
+  width: 56vw;
+  height: 14vw;
+  position: relative;
+  border-radius: 20px;
+  margin: auto;
+  background: radial-gradient(circle, rgb(218, 193, 55) 80%, rgba(255,216,0,1) 100%);
+  padding: 4px;
+  margin: 20px auto;
+}
+
+#prenota > img {
+  height: 8.5vw;
+  margin: 0.5vw;
+  padding: 1.5vw;
+  background: #d1ba3c;
+  border-radius: 16px;
+  float: left;
+}
+
+#prenota {
+  position: relative;
+  width: 56vw;
+  height: 14vw;
+  border-radius: 20px;
+  color: #000;
+  background-color: #fff;
+  font-size: 4.5vw;
+  text-align: center;
+}
+
+#prenota > b {
+  line-height: 13vw;
+}
