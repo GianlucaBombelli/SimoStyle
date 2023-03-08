@@ -67,6 +67,7 @@ section {
   animation-duration: 0.5s;
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.5s;
+  background: white;
 }
 
 @keyframes fade {
