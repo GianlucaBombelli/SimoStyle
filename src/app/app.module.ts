@@ -13,6 +13,7 @@ import { PointCard2Component } from './home/point-card2/point-card2.component';
 import { PointCard3Component } from './home/point-card3/point-card3.component';
 import { CaroselloRecensioniComponent } from './home/carosello-recensioni/carosello-recensioni.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AppRoutingModule } from './app-routing.module';
     PointCardComponent,
     PointCard2Component,
     PointCard3Component,
-    CaroselloRecensioniComponent
+    CaroselloRecensioniComponent,
+    FooterComponent
   ],
   imports: [BrowserModule,
     AppRoutingModule],
